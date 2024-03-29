@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import Logo from "@/public/assets/Banner.png"
 
 const Navbar = () => {
   return (
     <nav className="p-8 flex justify-between w-full h-auto items-center max-w-7xl mx-auto" >
       <Image
-        src="/misshotspots/Banner.png"
+        src={Logo}
         alt="logo"
         width={70}
         height={70}
