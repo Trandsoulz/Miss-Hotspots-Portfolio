@@ -99,9 +99,9 @@ const Home = () => {
           <div className="w-[55%] mx-auto h-[350px]  flex items-center">
             <div>
               <p className="pt-10 text-2xl ">
-                Hello, I'm Esther Samuel also known as “Miss_hotspots” I'm a
+                Hello, I&apos;m Esther Samuel also known as “Miss_hotspots” I&apos;m a
                 Content strategist, Social media manager and a Lifestyle Creator
-                ,I'm glad to have you here , Let's Create memories together.
+                ,I&apos;m glad to have you here , Let&apos;s Create memories together.
               </p>
 
               <div className="pt-10 space-x-8 flex">
