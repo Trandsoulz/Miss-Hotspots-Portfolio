@@ -99,15 +99,16 @@ const Home = () => {
           <div className="w-[55%] mx-auto h-[350px]  flex items-center">
             <div>
               <p className="pt-10 text-2xl ">
-                Hello, I&apos;m Esther Samuel also known as “Miss_hotspots” I&apos;m a
-                Content strategist, Social media manager and a Lifestyle Creator
-                ,I&apos;m glad to have you here , Let&apos;s Create memories together.
+                Hello, I&apos;m Esther Samuel also known as “Miss_hotspots”
+                I&apos;m a Content strategist, Social media manager and a
+                Lifestyle Creator ,I&apos;m glad to have you here , Let&apos;s
+                Create memories together.
               </p>
 
               <div className="pt-10 space-x-8 flex">
                 <Link
                   href={"/about"}
-                  className="bg-[#e3a6c5] text-white rounded-md px-6 py-4"
+                  className="bg-[#e3a6c5] text-white text-lg rounded-md px-6 py-4"
                 >
                   Read More
                 </Link>
@@ -129,6 +130,37 @@ const Home = () => {
               </div>
               <MLogo className="absolute right-28" />
             </div>
+          </div>
+        </main>
+      </section>
+
+      <section className="bg-primary h-auto pb-20 px-8 pt-28 text-black ">
+        <main className="flex mt-14 items-center max-w-7xl mx-auto">
+          <div className="w-[55%] mx-auto h-[350px] flex">
+            <div>
+              <p className="pt-10 text-2xl ">
+                Hello, I&apos;m Esther Samuel also known as “Miss_hotspots”
+                I&apos;m a Content strategist, Social media manager and a
+                Lifestyle Creator ,I&apos;m glad to have you here , Let&apos;s
+                Create memories together.
+              </p>
+              <p className="pt-10 text-2xl ">
+                Hello, I&apos;m Esther Samuel also known as “Miss_hotspots”
+                I&apos;m a Content strategist, Social media manager and a
+                Lifestyle Creator ,I&apos;m glad to have you here , Let&apos;s
+                Create memories together.
+              </p>
+            </div>
+          </div>
+
+          <div className="w-[35%]">
+            <Image
+              src={"/assets/brandwork.png"}
+              className="rounded-md"
+              alt="Miss Hotspot"
+              width={250}
+              height={250}
+            />
           </div>
         </main>
       </section>
