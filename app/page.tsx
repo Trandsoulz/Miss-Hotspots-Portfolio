@@ -14,6 +14,7 @@ import Footer from "./components/Footer";
 import { useEffect, useRef } from "react";
 
 const Home = () => {
+  const img = "/misshotspots/misshotspotsimg.jpg"
   // const imgs: { img: string; val: number }[] = [
   //   { img: "/bg-imgs/bg-img1.jpg", val: 1 },
   //   { img: "/bg-imgs/bg-img2.jpg", val: 2 },
@@ -80,7 +81,7 @@ const Home = () => {
       <main
         className="bg-cover md:bg-contain bg-no-repeat bg-center h-screen w-full -z-10 fixed bg-black"
         style={{
-          backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(/misshotspots/misshotspotsimg.jpg)`,
+          backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(${img})`,
         }}
       ></main>
       <Navbar color={"bg-none"} />
