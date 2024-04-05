@@ -1,3 +1,3 @@
 ## Portfolio Project of Miss Hotspot
 
-This is [misshotspot.com](https://viewstock-socials.vercel.app/auth).
+This is [misshotspot.com](https://misshotspots.com).
