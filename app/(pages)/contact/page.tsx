@@ -100,12 +100,12 @@ const Contact = () => {
       >
         Contact Us
       </h1>
-      <section className="pt-6 md:pt-12 px-8 mx-auto w-full flex flex-col md:flex-row gap-10 max-w-7xl">
+      <section className="pt-6 md:pt-12 px-8 mx-auto w-full flex flex-col md:flex-row gap-10 max-w-7xl"  data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="300">
         <div
           className="w-full md:w-1/2"
-          data-aos="fade-up"
-          data-aos-duration="500"
-          data-aos-delay="300"
+         
         >
           <Image
             className="rounded"
@@ -117,9 +117,7 @@ const Contact = () => {
         </div>
         <div
           className="text-black w-full md:w-1/2"
-          data-aos="fade-up"
-          data-aos-duration="500"
-          data-aos-delay="600"
+        
         >
           {/* Contact Form */}
           <form
