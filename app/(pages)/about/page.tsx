@@ -79,7 +79,7 @@ const About = () => {
             <p className="py-5 md:py-0 md:text-2xl text-lg pt-10">
               The Miss Hotspots brand is so far showing results as a standard
               carrier of high quality. Therefore, in an effort to exhibit the
-              brand's high-level videogame and extend its reach, we are
+              brand&apos;s high-level videogame and extend its reach, we are
               recommending an advertising and content creation campaign. Hit the
               button down below and send us an email to get more information
             </p>
@@ -115,7 +115,7 @@ const About = () => {
           data-aos="fade-up"
           data-aos-duration="500"
         >
-          Some of the unique brand I've worked with
+          Some of the unique brand I&apos;ve worked with
         </h1>
 
         <main data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
