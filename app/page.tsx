@@ -80,7 +80,7 @@ const Home = () => {
       <main
         className="bg-cover md:bg-contain bg-no-repeat bg-center h-screen w-full -z-10 fixed bg-black"
         style={{
-          backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("/misshotspots/misshotspotsimg.jpg")`,
+          backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(/misshotspots/misshotspotsimg.jpg)`,
         }}
       ></main>
       <Navbar color={"bg-none"} />

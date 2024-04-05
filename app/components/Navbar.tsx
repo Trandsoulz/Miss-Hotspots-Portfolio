@@ -28,7 +28,7 @@ const Navbar = ({color} : {color : string}) => {
 
   return (
     <nav
-      className={`p-8 flex justify-between items-center mx-auto max-w-[90rem] text-white ${
+      className={`p-8 flex justify-between items-center mx-auto max-w-[90rem] text-white z-10 ${
         sticky ? "sticky-nav" : "nav"
       } ${color}`}
     >
