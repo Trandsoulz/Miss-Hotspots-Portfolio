@@ -8,7 +8,7 @@ import Image from "next/image";
 // import Wave2 from "@/public/assets/wave2";
 // import Wave4 from "@/public/assets/wave4";
 // import Curve from "@/public/assets/PinkCurvedLine";
-import Misshotspot from "../public/misshotspots/misshotspotsimg.jpg"
+import Misshotspot from "@/public/misshotspots/misshotspotsimg.jpg"
 import Link from "next/link";
 import MLogo from "@/public/assets/m-logo";
 import Footer from "./components/Footer";

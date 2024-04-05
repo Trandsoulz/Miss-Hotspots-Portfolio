@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        // "misshotspot": "url('../public/misshotspots/misshotspotsimg.jpg')",
+      },
       colors: {
         primaryColor: "#FCF7EB",
         secondaryColor: "#D79ABC",
