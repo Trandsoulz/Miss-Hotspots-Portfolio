@@ -8,6 +8,7 @@ import Image from "next/image";
 // import Wave2 from "@/public/assets/wave2";
 // import Wave4 from "@/public/assets/wave4";
 // import Curve from "@/public/assets/PinkCurvedLine";
+import Misshotspot from "@/public/misshotspots/misshotspotsimg.jpg"
 import Link from "next/link";
 import MLogo from "@/public/assets/m-logo";
 import Footer from "./components/Footer";
@@ -81,7 +82,7 @@ const Home = () => {
       <main
         className="bg-cover md:bg-contain bg-no-repeat bg-center h-screen w-full -z-10 fixed bg-black"
         style={{
-          backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("${img}")`,
+          backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(${Misshotspot.src})`,
         }}
       ></main>
       <Navbar color={"bg-none"} />
