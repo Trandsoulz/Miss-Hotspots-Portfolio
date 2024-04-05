@@ -42,3 +42,13 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  .sticky-nav {
+    @apply fixed right-0 left-0 shadow duration-200 shadow-black z-10 !important;
+  }
+
+  .nav {
+    @apply absolute text-white duration-200 right-0 left-0 !important;
+  }
+}

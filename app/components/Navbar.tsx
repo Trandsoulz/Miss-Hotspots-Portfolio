@@ -1,25 +1,54 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/public/assets/Banner.png"
+import Logo from "@/public/assets/Banner.png";
+import { useEffect, useState } from "react";
 
-const Navbar = () => {
+const Navbar = ({color} : {color : string}) => {
+  const [sticky, setSticky] = useState<boolean>(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (document.documentElement.scrollTop > 50) {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
+    };
+
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", handleScroll);
+    }
+
+    return () => {
+      if (typeof window !== "undefined") {
+        window.removeEventListener("scroll", handleScroll);
+      }
+    };
+  }, []);
+
   return (
-    <nav className="p-8 flex justify-between w-full h-auto items-center max-w-7xl mx-auto" >
-      <Image
-        src={Logo}
-        alt="logo"
-        width={70}
-        height={70}
-        className="hover:scale-125 duration-200"
-      />
+    <nav
+      className={`p-8 flex justify-between items-center mx-auto max-w-[90rem] text-white ${
+        sticky ? "sticky-nav" : "nav"
+      } ${color}`}
+    >
+      <Link href={"/"}>
+        <Image
+          src={Logo}
+          alt="logo"
+          width={70}
+          height={70}
+          className="hover:scale-125 duration-200"
+        />
+      </Link>
 
-      <nav className="md:text-xl text-lg font-light space-x-6 md:space-x-10 flex">
+      <nav className="md:text-xl text-base font-medium space-x-6 md:space-x-10 flex ">
         <h1 className="hover:scale-110 duration-200">
           <Link href={"/about"}>About Me</Link>
         </h1>
 
         <h1 className="hover:scale-110 duration-200">
-          <Link href={"/contact"}>Contact Me</Link>
+          <Link href={"/contact"}>Contact Us</Link>
         </h1>
       </nav>
     </nav>
